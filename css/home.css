@@ -96,8 +96,10 @@ button {
     z-index: 999;
   }
 
-  .nav .logo-preferencial img {
+  .logo-preferencial {
     background-image: url("../img/DESINCHA_logo_PREFERENCIAL-1.png");
+    width: 150px;
+    height: 70px;
   }
 
   .navbar {
