@@ -1,0 +1,454 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  overflow-x: none;
+}
+
+h1,
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 13px;
+}
+
+p {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-1 {
+  background-image: url("../img/bg-1.png");
+}
+
+.title-primary {
+  color: #6cb859;
+}
+
+.title-secundary {
+  color: #fff;
+}
+
+.description-primary {
+  color: #666262;
+}
+
+.btn-primary {
+  background-color: #74bb62;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media (max-width: 320px) {
+  #header {
+    background-image: url("../img/imagem-5.png");
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+
+  .nav-fixed {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+
+    background-color: rgba(28, 70, 28, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+  }
+
+  .nav .logo-preferencial img {
+    background-image: url("../img/DESINCHA_logo_PREFERENCIAL-1.png");
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navbar .btn {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .icon .icon-shopp {
+    background-image: url("../img/.icon-shopp.png");
+  }
+
+  .btn-shopping-bag {
+    background-image: url("../img/shopping-bag.png");
+  }
+
+  .btn-menu {
+    background-image: url("../img/menu.png");
+  }
+
+  /* Wrap */
+
+  .wrap {
+    display: flex;
+    flex: 1;
+    height: 55vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-play {
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 50%;
+    background-color: #f5a623;
+    color: #fff;
+    background-image: url("../img/play.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+  }
+
+  .btn-play img {
+    width: 30px;
+  }
+
+  .produtos {
+    max-width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+
+  .produtos .produto {
+    margin: 0px 20px;
+  }
+
+  /* Desinchá noite */
+  #desincha-noite {
+    background-image: url("../img/bg-2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 50px 10px 0px 10px;
+  }
+  /* Fim Desinchá noite */
+
+  section {
+    /* height: 100vh; */
+    max-width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  section .imagem-desincha-noite {
+    margin-top: 30px;
+  }
+
+  section .descricao {
+    text-align: center;
+  }
+
+  section .acoes {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section .acoes .btn {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  section .btn-saiba-mais {
+    color: #c3d802;
+  }
+
+  section .btn-comprar {
+    color: #ffbd29;
+    text-transform: uppercase;
+  }
+
+  #desincha-noite #line-1 {
+  }
+
+  /* Descrição desinchá */
+  #desincha {
+    background-image: url("../img/bg-3.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+  }
+
+  #desincha #line-2 {
+    margin-bottom: 20px;
+  }
+
+  #desincha .imagem-produto {
+    max-width: 100%;
+  }
+  /* Fim descrição desinchá */
+
+  /* Ingredientes */
+  #ingredientes {
+    padding-bottom: 50px;
+  }
+  #ingredientes .imagem-ingredientes {
+    background-image: url("../img/ingredientes-bg.png");
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 37px;
+  }
+  #ingredientes .imagem-ingredientes img {
+    zoom: 1;
+  }
+  #ingredientes .descricao-ingredientes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 250px;
+  }
+  #ingredientes h2 {
+    color: #6cb859;
+  }
+  #ingredientes p {
+    color: #666262;
+  }
+  #ingredientes .patentes .patente {
+    margin: 5px;
+  }
+  /* Fim ingredientes */
+
+  /* Depoimentos */
+  #depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  #depoimentos .video {
+    background-image: url("../img/palavras.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  #depoimentos .video::before {
+    content: "";
+    width: 100%;
+    background-color: rgba(75, 87, 21, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  #depoimentos .video button {
+    z-index: 1;
+  }
+
+  #depoimentos .descricao {
+    background-color: rgba(75, 87, 21, 0.5);
+    height: 100px;
+    padding-top: 20px;
+  }
+  /* Fim depoimentos*/
+
+  /* Receitas */
+  #receitas {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #receitas .area-receitas {
+    max-width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  /* Fim receitas */
+
+  /* Blog */
+  #blog {
+    max-width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #blog .area-posts {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  #blog .area-posts .post {
+    width: 300px;
+    margin-right: 20px;
+    box-shadow: 0px 5px 6px 5px rgba(198, 198, 198, 0.5);
+    margin: 10px;
+  }
+
+  #blog .area-posts .post .description {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  #blog .area-posts .post .action {
+    background-color: #6cb859;
+    color: #fff;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Fim blog*/
+
+  /* Perguntas */
+  #perguntas {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+  }
+
+  #perguntas .conteudo {
+    max-width: 200px;
+  }
+  /* Fim perguntas */
+
+  /* Footer */
+  #footer {
+    background-image: url("../img/bg-footer.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 77vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #fff;
+  }
+
+  #footer .conteudo-1 {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  #footer .conteudo-1 .logo-footer {
+    margin-right: 20px;
+  }
+
+  #footer .conteudo-1 .links {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+  }
+
+  #footer .conteudo-1 .links li {
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  #footer .conteudo-1 .links li a {
+    color: #fff;
+  }
+
+  #footer .conteudo-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  #footer .conteudo-2 .social ul {
+    display: inline-flex;
+    list-style-type: none;
+  }
+
+  #footer .conteudo-2 .security {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer .conteudo-2 .security img {
+    width: 60px;
+  }
+
+  #footer .copy {
+    max-width: 200px;
+    padding: 20px 0px;
+    font-size: 0.5em;
+  }
+  /* Footer */
+}
